@@ -1,0 +1,7 @@
+poster_target_local_time,nearest_spectrum_id,nearest_spectrum_local_time,altitude_ft,altitude_kft,coadd_start_spectrum_id,coadd_end_spectrum_id,n_spectra_coadded,plot_color
+11:51:54,5,2019-12-11 11:51:54,3696.538,3.696538,0,10,11,blue
+11:53:00,13,2019-12-11 11:53:00,3696.538,3.696538,8,18,11,red
+11:53:58,20,2019-12-11 11:53:58,3696.538,3.696538,15,25,11,gold
+11:55:05,28,2019-12-11 11:55:05,3696.538,3.696538,23,33,11,green
+11:56:03,35,2019-12-11 11:56:03,3696.538,3.696538,30,40,11,orange
+11:57:01,42,2019-12-11 11:57:01,3696.538,3.696538,37,47,11,cyan

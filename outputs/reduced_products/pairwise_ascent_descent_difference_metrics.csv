@@ -1,0 +1,8 @@
+target_altitude_ft,target_altitude_kft,ascent_index,descent_index,ascent_spectrum_id,descent_spectrum_id,ascent_altitude_ft,descent_altitude_ft,altitude_difference_ft,wavelength_min_nm,wavelength_max_nm,rms_difference,median_absolute_difference,max_absolute_difference,figure
+25000.0,25,20,68,20,68,21690.629375,25095.089625,3404.46025,630.0,970.0,0.08694552784044295,0.004242317455461553,0.5092791666666667,C:\Users\seanc\Documents\amse\outputs\figures\pairwise_ascent_descent_025kft.png
+50000.0,50,23,62,23,62,45845.018875,50288.35775,4443.338875000001,630.0,970.0,0.06650770413375394,0.0,0.36910267314493106,C:\Users\seanc\Documents\amse\outputs\figures\pairwise_ascent_descent_050kft.png
+100000.0,100,27,58,27,58,98770.5578751419,108625.34303384848,9854.785158706582,630.0,970.0,0.12200648377254918,0.0,0.468142492668832,C:\Users\seanc\Documents\amse\outputs\figures\pairwise_ascent_descent_100kft.png
+150000.0,150,29,57,29,57,140718.17175,136453.40225,4264.769499999995,630.0,970.0,0.11921204339873119,0.0,0.6032500000000001,C:\Users\seanc\Documents\amse\outputs\figures\pairwise_ascent_descent_150kft.png
+200000.0,200,31,55,31,55,195257.953,192855.949,2402.004000000016,630.0,970.0,0.09666184481336143,0.0,0.533096875,C:\Users\seanc\Documents\amse\outputs\figures\pairwise_ascent_descent_200kft.png
+250000.0,250,33,52,33,52,240460.453,260565.39650790187,20104.94350790186,630.0,970.0,0.10880132249933504,0.0,0.5309166666666667,C:\Users\seanc\Documents\amse\outputs\figures\pairwise_ascent_descent_250kft.png
+300000.0,300,36,50,36,50,295088.531,293667.1565,1421.3745000000345,630.0,970.0,0.11400956137678633,0.0,0.6481249999999998,C:\Users\seanc\Documents\amse\outputs\figures\pairwise_ascent_descent_300kft.png

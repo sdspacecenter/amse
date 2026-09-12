@@ -1,0 +1,5 @@
+native_channel,flipped_channel,wavelength_nm_after_flip,mask_reason
+512,3135,943.8442555525089,repeatable bad detector channel
+700,2947,923.2245681381958,repeatable bad detector channel
+760,2887,916.6438168357554,repeatable bad detector channel
+1093,2554,880.1206471072114,repeatable bad detector channel

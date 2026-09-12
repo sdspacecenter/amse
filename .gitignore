@@ -1,0 +1,36 @@
+# Python virtual environment (724 MB; recreate with: python -m venv .venv)
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS/editor junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Large-file / LFS-avoidance exclusions -------------------------------
+# Nothing on disk is deleted by this file; it only controls what `git add`
+# picks up.
+
+# Redundant already-extracted copy of the NASA telemetry CSV (47 MB).
+# The zip beside it (6.4 MB) is tracked and is the authoritative archival
+# copy; regenerate this file with:
+#   python -c "import zipfile; zipfile.ZipFile(r'data/nasa_flight_report/P9_Payload_Flight_Mission_Report.csv[38].zip').extractall(r'data/nasa_flight_report')"
+data/nasa_flight_report/P9_Payload_Flight_Mission_Report.csv
+
+# Temporary / recreated plot artifacts: throwaway iteration output, not a
+# final tracked product. Put in-progress/exploratory figures here (or name
+# them with these suffixes) while iterating; move a figure into
+# outputs/figures/ (or a new versioned output directory) once it's final.
+outputs/**/tmp/
+outputs/**/_scratch/
+*_TEMP.png
+*_tmp.png
+
+# NOTE: the legacy outputs/reduced_products/*.npy matrices and
+# amse_flight_data_workbook.xlsx are INTENTIONALLY tracked, not ignored,
+# despite being large and affected by the parser bug documented in
+# README.md. They are preserved as the historical/legacy record of the
+# original (buggy-parser) reduction, for provenance and before/after
+# comparison once the corrected re-reduction lands.
