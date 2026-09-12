@@ -50,9 +50,24 @@ carried out with AI assistance (Codex, Claude). This reanalysis:
   radiometric calibration, and not yet confirmed against a full,
   corrected whole-flight re-reduction.
 
-## Approved next step
+## 2026-09 — Phase 1 closeout
 
-Fix the parser, add regression tests, and re-reduce the entire flight
-from the raw files under a corrected, documented pipeline: altitude-
-resolved coadds with ascent and descent kept and compared separately,
-toward a publication-focused re-reduction.
+GitHub archival of the repository is complete:
+
+- `3a9826c` — archival baseline (raw AMSE spectra, NASA P9 trajectory zip,
+  poster-era materials, and all legacy scripts/outputs)
+- `0ef0ff1` — NASA P9 CSV archival completion (unzipped copy tracked
+  directly, alongside its zip)
+- `04adc4c` — initial program log
+
+As of this checkpoint: all raw AMSE spectra and NASA P9 mission/capsule
+trajectory data, poster-era materials, and legacy analysis outputs are
+preserved in the repository. The legacy regex-parser defect and the
+provisional poster-constrained wavelength calibration are documented, but
+**no corrected re-reduction of the flight data has yet been performed.**
+
+Phase 2 — the parser fix, regression tests, corrected altitude-resolved
+ascent/descent coadds, validation against the provisional calibration,
+and publication drafting — is **intentionally deferred**, not started.
+The repository is being left at a clean, reproducible archival
+checkpoint.
