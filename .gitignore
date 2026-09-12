@@ -13,11 +13,11 @@ desktop.ini
 # Nothing on disk is deleted by this file; it only controls what `git add`
 # picks up.
 
-# Redundant already-extracted copy of the NASA telemetry CSV (47 MB).
-# The zip beside it (6.4 MB) is tracked and is the authoritative archival
-# copy; regenerate this file with:
-#   python -c "import zipfile; zipfile.ZipFile(r'data/nasa_flight_report/P9_Payload_Flight_Mission_Report.csv[38].zip').extractall(r'data/nasa_flight_report')"
-data/nasa_flight_report/P9_Payload_Flight_Mission_Report.csv
+# NOTE: the already-extracted NASA P9 CSV (47 MB) is INTENTIONALLY tracked
+# alongside its zip, even though byte-for-byte redundant with it. It is
+# unique mission/capsule trajectory data and is kept in directly-usable
+# (unzipped) form in the archive. 47 MB is well under GitHub's 100 MB
+# hard limit, so no Git LFS is used for it.
 
 # Temporary / recreated plot artifacts: throwaway iteration output, not a
 # final tracked product. Put in-progress/exploratory figures here (or name
